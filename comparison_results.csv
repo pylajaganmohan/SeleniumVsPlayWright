@@ -1,0 +1,2 @@
+Functionality,Selenium Time (ms),Playwright Time (ms),Faster
+Login,8767,7511,Playwright
