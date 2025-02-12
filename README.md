@@ -12,8 +12,9 @@ This project compares Selenium and Playwright for web automation using Maven and
 4. [Running Tests](#running-tests)
 5. [Comparison Metrics](#comparison-metrics)
 6. [Project Structure](#project-structure)
-7. [Conclusion](#conclusion)
-8. [Contributions](#contributions)
+7. [Architecture of the Application](#architecture-of-the-application)
+8. [Conclusion](#conclusion)
+9. [Contributions](#contributions)
 
 ## Features
 - Setup and installation guides for Selenium and Playwright.
@@ -88,6 +89,19 @@ This project evaluates the following aspects:
 ├── README.md (Project documentation)
 ├── .gitignore (Git ignore file)
 ```
+## Architecture of the Application
+The core of this project lies in an application that manages the execution of the test cases across 
+both Selenium and Playwright. The architecture includes three main components:
+1. **App Class**: This orchestrator controls the execution of tests in both Selenium and 
+Playwright. It runs the tests, calculates the execution time, and compares the results.
+2. **Selenium Testing Class**: This class contains the logic for running the test with Selenium. 
+It interacts with the web elements, performs the necessary actions, and verifies the 
+results.
+3. **Playwright Testing Class**: Similar to the Selenium Testing class, this class runs the same 
+test case using Playwright, utilizing Playwright’s API to interact with the web 
+application.
+![image](https://github.com/user-attachments/assets/efc822b7-0258-42ad-a5cd-5c01e6156e08)
+![image](https://github.com/user-attachments/assets/32c96789-eb0a-4122-9d12-aaa2aec17900)
 
 ## Conclusion
 This project provides a practical comparison of Selenium and Playwright, helping users choose the best automation tool for their needs.
