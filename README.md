@@ -101,9 +101,6 @@ results.
 test case using Playwright, utilizing Playwright’s API to interact with the web 
 application.
 
-![image](https://github.com/user-attachments/assets/efc822b7-0258-42ad-a5cd-5c01e6156e08)
-![image](https://github.com/user-attachments/assets/32c96789-eb0a-4122-9d12-aaa2aec17900)
-
 ## Conclusion
 This project provides a practical comparison of Selenium and Playwright, helping users choose the best automation tool for their needs.
 
