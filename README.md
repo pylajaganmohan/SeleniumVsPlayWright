@@ -61,7 +61,7 @@ Ensure you have the following installed:
 ## Running Tests
 All tests for both Selenium and Playwright are executed using `App.java`. Run the following command:
 ```bash
-mvn exec:java -Dexec.mainClass=com.project.automation.App
+mvn exec:java -Dexec.mainClass=com.project.SeleniumVsPlayWright.App
 ```
 
 ## Comparison Metrics
